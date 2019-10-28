@@ -36,6 +36,15 @@ end
 # "Martin Scorsese"		=>636812242,
 # "Francis Ford Coppola"	=>509719258}
 
+def list_of_directors(source)
+  directors = []
+
+  i=0 
+  while directors.length < source.length
+    directors.push(source[i][:name])
+    i += 1
+  end 
+  directors
 
 
 end

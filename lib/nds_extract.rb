@@ -24,15 +24,6 @@ def gross_for_director(d)
   total
 end
 
-def list_of_directors(source)
-  directors = []
-
-  i=0 
-  while directors.length < source.length
-    directors.push(source[i][:name])
-    i += 1
-  end 
-  directors
 
 
 # {"Stephen Spielberg"	=>1357566430,

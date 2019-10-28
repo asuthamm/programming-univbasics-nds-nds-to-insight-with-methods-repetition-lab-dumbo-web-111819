@@ -40,7 +40,15 @@ end
 
 def total_gross(source)
   directors_arr = list_of_directors(source)
-    puts total_gross(source)
+
+  i=0 
+  while i < source.length
+  
+  i+= 1
+  end
+  
+  
+
 
 
   

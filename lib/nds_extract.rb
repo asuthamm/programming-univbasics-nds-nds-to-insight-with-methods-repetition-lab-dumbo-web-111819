@@ -27,7 +27,12 @@ end
 def list_of_directors(source)
   directors = []
 
-  source.each 
+  i=0 
+  while directors.length < source.length
+    directors.push(source)
+    i += 1
+  end 
+  
 
 
 {"Stephen Spielberg"	=>1357566430,

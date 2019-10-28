@@ -10,10 +10,8 @@ def directors_totals(source)
     director_index += 1
   end
   result
-  
-  
-  puts total_gross(source)
 end
+
 
 def gross_for_director(d)
   total = 0
@@ -39,8 +37,11 @@ def list_of_directors(source)
   directors
 end
 
+
 def total_gross(source)
-  
+  directors_arr = 
+    puts total_gross(source)
+end
   
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }

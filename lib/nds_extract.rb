@@ -29,18 +29,8 @@ end
 
 
 def list_of_directors(source)
-  directors = [
-    "Stephen Spielberg",
-    "Russo Brothers",
-    "James Cameron",
-    "Spike Lee",
-    "Wachowski Siblings",
-    "Robert Zemeckis",
-    "Quentin Tarantino",
-    "Martin Scorsese",
-    "Francis Ford Coppola"
-  ]
-
+  directors = []
+  
   # i=0 
   # while directors.length < source.length
   #   directors.push(source[i][:name])

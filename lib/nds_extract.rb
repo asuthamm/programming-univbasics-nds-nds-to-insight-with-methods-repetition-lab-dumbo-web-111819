@@ -25,8 +25,9 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-# Write this implementation
+  directors = []
 
+  source.each 
 
 
 {"Stephen Spielberg"	=>1357566430,

@@ -41,11 +41,8 @@ end
 def total_gross(source)
   directors_arr = list_of_directors(source)
   puts directors_totals(source)
+end
   
-  
-
-
-
   
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
@@ -54,6 +51,6 @@ def total_gross(source)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
-end
+
 
 

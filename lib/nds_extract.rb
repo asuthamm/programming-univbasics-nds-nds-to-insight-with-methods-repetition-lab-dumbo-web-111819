@@ -3,6 +3,7 @@ require_relative './directors_database'
 
 def directors_totals(source)
   result = {}
+  grand_total=0
   director_index = 0
   while director_index < source.size do
     director = source[director_index]

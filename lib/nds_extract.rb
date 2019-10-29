@@ -44,7 +44,7 @@ def total_gross(source)
   hash =  directors_totals(source)
   total = 0
   
-  h.each do |k,v|
+  hash.each do |k,v|
     total += v
     
   end

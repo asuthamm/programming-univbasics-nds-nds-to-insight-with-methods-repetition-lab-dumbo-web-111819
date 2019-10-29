@@ -40,19 +40,20 @@ end
 
 
 def total_gross(source)
+  
   directors_arr = list_of_directors(source)
-  hash =  directors_totals(source)
-  
-  # hash.each do |k,v|
-  #   total += v
-  # end
-  
-  i=0 
+  hash = directors_totals(source)
   total=0
-  while i < hash.length
-    total += 
+  arr_index=0
+  while arr_index < directors_arr.length
+    name= directors_arr[arr_index]
+    total += hash[name]
+
+    arr_index += 1
   end
   total
+
+
 end
   
   

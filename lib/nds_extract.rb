@@ -43,7 +43,12 @@ def total_gross(source)
   directors_arr = list_of_directors(source)
   hash =  directors_totals(source)
   
-  hash..
+  i=0 
+  total=0
+  while i < hash.length
+    total += 
+  end
+  total
 end
   
   

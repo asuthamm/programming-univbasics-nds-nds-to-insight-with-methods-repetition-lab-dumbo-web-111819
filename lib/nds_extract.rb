@@ -41,7 +41,9 @@ end
 
 def total_gross(source)
   directors_arr = list_of_directors(source)
-  puts directors_totals(source)
+  hash =  directors_totals(source)
+  
+  hash..
 end
   
   
